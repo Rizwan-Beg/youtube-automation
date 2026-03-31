@@ -1,0 +1,36 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+# Python
+venv/
+__pycache__/
+*.pyc
+# Playwright / browser cache
+.browser_data/
+playwright/.local-browsers/
+# Mac
+.DS_Store
+# Credentials
+client_secret.json
+token.json
+# Media files
+videos_raw/
+videos_clean/
+thumbnails/
+
+# PDFs
+books_queue/*.pdf
+processed_books/*.pdf
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
